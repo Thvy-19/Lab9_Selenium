@@ -149,6 +149,3 @@ File JUnit XML có thể được tạo lại bất kỳ lúc nào bằng `npm r
 - Bộ test tập trung vào luồng chức năng chính, chưa bao gồm hiệu năng, bảo mật và kiểm thử trực quan.
 - TC06 dùng dữ liệu khách hàng giả, không phát sinh giao dịch thật.
 
-## 10. Tác giả
-
-Sản phẩm thực hành Selenium, phát hành theo giấy phép MIT.
