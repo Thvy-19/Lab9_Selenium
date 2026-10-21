@@ -1,0 +1,9 @@
+node_modules/
+reports/*
+!reports/.gitkeep
+screenshots/
+.env
+.DS_Store
+Thumbs.db
+*.log
+se-metadata.json

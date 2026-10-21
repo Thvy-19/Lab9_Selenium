@@ -1,0 +1,22 @@
+{
+  "name": "selenium-saucedemo-tests",
+  "version": "1.0.0",
+  "description": "Bộ kiểm thử tự động end-to-end cho SauceDemo bằng Selenium WebDriver và Node.js.",
+  "private": false,
+  "scripts": {
+    "test": "node --test --test-concurrency=1 --test-reporter=spec tests/saucedemo.test.js",
+    "test:headed": "set HEADLESS=false&& node --test --test-concurrency=1 --test-reporter=spec tests/saucedemo.test.js",
+    "test:report": "node --test --test-concurrency=1 --test-reporter=junit --test-reporter-destination=reports/junit.xml tests/saucedemo.test.js"
+  },
+  "keywords": [
+    "selenium",
+    "webdriver",
+    "automation-testing",
+    "saucedemo",
+    "node-test"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "selenium-webdriver": "^4.37.0"
+  }
+}
